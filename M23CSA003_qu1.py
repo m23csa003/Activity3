@@ -201,6 +201,9 @@ def Compare_Harris_opencv(imagefolder_dir):
 
 
 # %%
-f_name = r"Assignment 1 Input Images\Question 1\5.jpg"
-Custom_CV().HarrisCornerDetector(f_name, 2, 0.04, 3, imshow=True)
-# %%
+f_name1 = r"Assignment 1 Input Images\Question 1\5.jpg"
+f_name2 = "./Assignment 1 Input Images/Question 1/2.jpeg"
+
+Custom_CV().HarrisCornerDetector(f_name1, 2, 0.04, 3, imshow=True)
+Custom_CV().HarrisCornerDetector(f_name2, 2, 0.04, 3, True)
+
